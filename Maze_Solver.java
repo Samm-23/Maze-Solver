@@ -56,7 +56,7 @@ class MazeVisualization extends JFrame {
     }
 }
 
-class Maze_Solver_Improvised {
+class Maze_Solver {
     public static void solve(int i, int j, int a[][], int n, ArrayList<String> ans, String move, int vis[][]) {
         if (i == n - 1 && j == n - 1) {
             ans.add(move);
